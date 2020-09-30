@@ -1,0 +1,52 @@
+tatic void Main(string[ ] arg)
+
+{
+
+String Nombre;
+
+String Apellido Paterno;
+
+String Apellido Materno;
+
+Int Edad;
+String Ocupacion;
+
+String Correo;
+ 
+String Genero;
+
+
+int Telefono;
+Console.WriteLine("Escribe tu nombre:"  \n);
+
+Nombre=Console.ReadLine();
+Console.WriteLine(Nombre);
+Console.WriteLine("Escribe tu primer apellido:" \n);
+
+Apellido Paterno=Console.ReadLine();
+Console.WriteLine(Apellido Paterno);
+Console.WriteLine("Ingresa tu segundo apellido:" \n);
+
+Apellido Materno=Console.ReadLine();
+Console.WriteLine(Apellido Materno);
+Console.WriteLine("Ingresa tu edad")
+if (Edad <=18)
+
+{
+
+Console.WriteLine("El registro no puede ser exitoso porque el usuario es menor de edad" \n);
+
+}
+ 
+Console.WriteLine("Ingresa tu correo electrónico:" );
+
+Correo=Console.ReadLine();
+Console.WriteLine(Correo);
+Console.WriteLine("Escribe tu Género" \n) ;
+
+Genero=Console.ReadLine();
+Console.WriteLine(Genero);
+Console.WriteLine("Escribe tu numero telefonico")
+Telefono=Console.ReadLine();
+Console.WriteLine(Telefono);
+}
